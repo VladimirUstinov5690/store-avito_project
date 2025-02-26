@@ -6,6 +6,6 @@ def index(request):
     return render(request, 'main/index.html')
 
 
-def get_data(request):
+def webhook(request):
     return JsonResponse({"status": "ok"}, status=200)
 
